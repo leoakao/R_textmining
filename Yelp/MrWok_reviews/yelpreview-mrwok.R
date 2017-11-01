@@ -1,7 +1,7 @@
 # Yelp Reviews
 
 place = 'mrwok'
-setwd("C:/Projects/R_textmining/Yelp")
+setwd("C:/Projects/R_textmining/Yelp/MrWok_reviews")
 reviews <- read.csv(paste("reviews",place,".csv",sep=""),stringsAsFactors = FALSE)
 
 
